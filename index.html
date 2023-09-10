@@ -11,28 +11,36 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@400;700;900&family=Open+Sans:wght@400;600;700;800&family=Work+Sans:wght@400;500;600;700;800;900&display=swap"
         rel="stylesheet">
-        <script src="https://kit.fontawesome.com/eb6b39e300.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@400;700;900&family=Open+Sans:wght@400;600;700;800&family=Roboto:wght@400;500;700;900&family=Work+Sans:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/eb6b39e300.js" crossorigin="anonymous"></script>
 
-        <style>
-            .font-neue{
-                font-family: 'Bebas Neue', sans-serif;
-            }
-        </style>
+    <style>
+        .font-neue {
+            font-family: 'Bebas Neue', sans-serif;
+        }
+        .font-roboto{
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
 </head>
 
 
 <body class="font-sans font-neue">
 
-    <header class=" lg:px-36 md:px-12  px-0  bg-orange-50 border border-black">
+    <header class=" lg:px-36 md:px-12 px-0 bg-orange-50 border border-black">
         <!-- nav -->
         <nav>
 
         </nav>
 
         <!-- banner -->
-        <section class="flex flex-col md:flex-row justify-between items-center gap-32 py-3">
+        <section class="flex flex-col md:flex-row justify-between items-center md:gap-32 gap-4 py-3">
 
-            <div class="w-1/2">
+            <div class="md:w-1/2 w-8/12">
                 <h1 class=" font-bold text-5xl uppercase my-3">
                     <span class="text-amber-400">Be the Penguins</span>
                     <br>
@@ -40,21 +48,71 @@
                 </h1>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 
-                <button class=" my-2 py-4 px-7 bg-gradient-to-r from-[#A4BC46]  to-[#85A019] border rounded-lg text-white">
+                <button
+                    class=" my-2 py-4 px-7 bg-gradient-to-r from-[#A4BC46]  to-[#85A019] border rounded-lg text-white">
                     <i class="fa-solid fa-cart-shopping uppercase" style="color: #f4f7fa;"></i>
-                     BUY NOW</button>
+                    BUY NOW</button>
             </div>
 
 
-            <div class="w-1/2 ">
+            <div class="md:w-1/2 w-8/12 ">
                 <img src="images/model.png" alt="">
             </div>
 
         </section>
     </header>
-    <main>
+
+    <main class="max-w-7xl mx-auto">
+        
+        <section class="py-12">
+            <h3 class="font-bold text-4xl mx-auto uppercase text-[#363958]">WoMan Jacket</h3>
+
+            <div class="font-roboto grid grid-cols-3 gap-7">
+
+                <div class="space-y-3  rounded-2xl p-5">
+                    <div class="bg-[#F1F1F1] w-full p-7 rounded-2xl">
+                        <img src="images/jacket-1.png" alt="">
+                    </div>
+                    <h4 class="text-2xl font-bold">Yellow Coat Jacket </h4>
+                    <p>Lorem Ipsum is simply dummy text of the 
+                        printing and typesetting industry.</p>
+                    <div class="flex items-center justify-between">
+                        <h3 class="font-black text-4xl text-orange-400">$234</h3>
+                        <button class="my-2 py-4 px-7 bg-gradient-to-r from-[#A4BC46]  to-[#85A019] border rounded-lg text-white">BUY NOW</button>
+                    </div>
+                </div>
+
+                <div class="space-y-3  rounded-2xl p-5">
+                    <div class="bg-[#F1F1F1] w-full p-7 rounded-2xl">
+                        <img src="images/jacket-1.png" alt="">
+                    </div>
+                    <h4 class="text-2xl font-bold">Yellow Coat Jacket </h4>
+                    <p>Lorem Ipsum is simply dummy text of the 
+                        printing and typesetting industry.</p>
+                    <div class="flex items-center justify-between">
+                        <h3 class="font-black text-4xl text-orange-400">$234</h3>
+                        <button class="my-2 py-4 px-7 bg-gradient-to-r from-[#A4BC46]  to-[#85A019] border rounded-lg text-white">BUY NOW</button>
+                    </div>
+                </div>
+
+                <div class="space-y-3  rounded-2xl p-5">
+                    <div class="bg-[#F1F1F1] w-full p-7 rounded-2xl">
+                        <img src="images/jacket-1.png" alt="">
+                    </div>
+                    <h4 class="text-2xl font-bold">Yellow Coat Jacket </h4>
+                    <p>Lorem Ipsum is simply dummy text of the 
+                        printing and typesetting industry.</p>
+                    <div class="flex items-center justify-between">
+                        <h3 class="font-black text-4xl text-orange-400">$234</h3>
+                        <button class="my-2 py-4 px-7 bg-gradient-to-r from-[#A4BC46]  to-[#85A019] border rounded-lg text-white">BUY NOW</button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
 
     </main>
+    
     <footer>
 
     </footer>
